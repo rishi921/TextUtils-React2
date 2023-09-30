@@ -10,6 +10,7 @@ export default function TextForm(props) {
 
   const handleLoClick = ()=>{
     console.log("Lowerwase was clicked" + text);
+    console.log("This is the new line");// new line 
     let newText = text.toLowerCase();
     setText(newText);
     props.showAlert("Converted to LowerCase!", "success");
